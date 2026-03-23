@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [],
+    "deny": [],
+    "defaultMode": "acceptEdits"
+  },
+  "enableAllProjectMcpServers": false,
+  "prefersReducedMotion": true,
+  "terminalProgressBarEnabled": true
+}
