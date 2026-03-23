@@ -11,7 +11,7 @@ Break a PRD into a phased implementation plan using vertical slices (tracer bull
 
 ### 1. Confirm the PRD is in context
 
-The PRD should already be in the conversation. If it isn't, ask the user to paste it or point you to the file.
+The PRD should already be in the conversation. If it isn't, ask the user to paste it or point you to the file. PRDs are typically stored in `./docs/prds/`.
 
 ### 2. Explore the codebase
 
@@ -62,7 +62,7 @@ Create `./plans/` if it doesn't exist. Write the plan as a Markdown file named a
 <plan-template>
 # Plan: <Feature Name>
 
-> Source PRD: <brief identifier or link>
+> Source PRD: [<prd-filename>](../docs/prds/<prd-filename>)
 
 ## Architectural decisions
 
